@@ -1,0 +1,7 @@
+local Assets = workspace.Assets                or workspace:FindFirstChild("Assets")
+local Customs = workspace.Customs              or workspace:FindFirstChild("Customs")
+local Cameras = workspace.Cameras              or workspace:FindFirstChild("Cameras")
+local CurrentCamera = workspace.CurrentCamera  or workspace:FindFirstChild("CurrentCamera")
+local Paper = Assets.Paper                     or workspace:FindFirstChild("Paper")
+local NPC = Customs.NPC                        or workspace:FindFirstChild("NPC")
+local AnimationPaper = NPC.AnimationPaper      or workspace:FindFirstChild("AnimationPaper")
